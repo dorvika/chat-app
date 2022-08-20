@@ -40,7 +40,7 @@ const ContactItem = ({ contactData, setSelectedChat, allMessages }) => {
         <img className="user" src={profilePic} alt={name} />
         <img
           className="check-mark"
-          src="/images/check-mark.png"
+          src="https://res.cloudinary.com/dhk15xaeq/image/upload/v1661010650/chat-app/check-mark_fgkb4j.png"
           alt="green check mark"
         />
       </div>

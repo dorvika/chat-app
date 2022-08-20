@@ -30,21 +30,20 @@ const Contacts = ({
   return (
     <section className="contacts">
       <div className="profile">
-        <img
-          className="user"
-          src={profileImg || "/images/profile/default_avatar.png"}
-          alt="avatar"
-        />
+        <img className="user" src={profileImg} alt="avatar" />
         <img
           className="check-mark"
-          src="/images/check-mark.png"
+          src="https://res.cloudinary.com/dhk15xaeq/image/upload/v1661010650/chat-app/check-mark_fgkb4j.png"
           alt="green check mark"
         />
         <button onClick={() => setUserInfo({})}>Logout</button>
       </div>
       <div className="search__box">
         <div className="search__container">
-          <img src="/images/search-icon.svg" alt="search_icon" />
+          <img
+            src="https://res.cloudinary.com/dhk15xaeq/image/upload/v1661010650/chat-app/search-icon_q88uxe.svg"
+            alt="search_icon"
+          />
           <input
             value={searchQuery}
             onChange={searchUser}

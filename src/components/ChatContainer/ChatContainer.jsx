@@ -97,7 +97,7 @@ const ChatContainer = ({
           {selectedChat.name}
           <img
             className="check-mark chat-mark"
-            src="/images/check-mark.png"
+            src="https://res.cloudinary.com/dhk15xaeq/image/upload/v1661010650/chat-app/check-mark_fgkb4j.png"
             alt="green check mark"
           />
         </div>
@@ -145,7 +145,7 @@ const ChatContainer = ({
             placeholder="Type your message"
           />
           <img
-            src="/images/send_message.svg"
+            src="https://res.cloudinary.com/dhk15xaeq/image/upload/v1661010650/chat-app/send_message_gl6mbw.svg"
             alt="send message icon"
             onClick={sendMessage}
           />

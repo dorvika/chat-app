@@ -2,28 +2,32 @@ export const listOfContacts = [
   {
     id: 1,
     name: "Arielle Bloggs",
-    profilePic: "/images/profile/arielle.jpg",
+    profilePic:
+      "https://res.cloudinary.com/dhk15xaeq/image/upload/v1661010667/chat-app/arielle_smrt8y.jpg",
     lastText: "Of course) Can't wait to see u)",
     lastTextTime: 1660726635955,
   },
   {
     id: 2,
     name: "Tyrone Fellows",
-    profilePic: "/images/profile/tyrone.jpg",
+    profilePic:
+      "https://res.cloudinary.com/dhk15xaeq/image/upload/v1661010667/chat-app/tyrone_ft1er3.jpg",
     lastText: `Yes, it's because of her work`,
     lastTextTime: 1660726635959,
   },
   {
     id: 3,
     name: "Rima Morrison",
-    profilePic: "/images/profile/rima.jpg",
+    profilePic:
+      "https://res.cloudinary.com/dhk15xaeq/image/upload/v1661010666/chat-app/rima_zof8xs.jpg",
     lastText: "Me too, thanks) Let's meet on Tueasday?",
     lastTextTime: 1660726635963,
   },
   {
     id: 4,
     name: "Kamil Ratliff",
-    profilePic: "/images/profile/kamil.jpg",
+    profilePic:
+      "https://res.cloudinary.com/dhk15xaeq/image/upload/v1661010666/chat-app/kamil_kr1suq.jpg",
     lastText: "Almost, I need 1 more day.",
     lastTextTime: 1660726635967,
   },
